@@ -1,19 +1,24 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const Navigation = ({ activeTab, setActiveTab }) => {
-    const tabs = ['About', 'Blog', 'CV'];
+const Navigation = () => {
+    const tabs = [
+        { name: 'About', path: '/' },
+        { name: 'Blog', path: '/blog' },
+        { name: 'CV', path: '/cv' }
+    ];
 
     return (
         <nav className="nav-sidebar">
             <ul className="nav-list">
                 {tabs.map((tab) => (
-                    <li key={tab} className="nav-item">
-                        <a
-                            className={`nav-link ${activeTab === tab ? 'active' : ''}`}
-                            onClick={() => setActiveTab(tab)}
+                    <li key={tab.name} className="nav-item">
+                        <NavLink
+                            to={tab.path}
+                            className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
                         >
-                            {tab}
-                        </a>
+                            {tab.name}
+                        </NavLink>
                     </li>
                 ))}
             </ul>
