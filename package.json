@@ -1,0 +1,28 @@
+{
+  "name": "adam_is_me",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/089ef2df-f7a2-4740-8519-4ba2a77600ac/deploy-status)](https://app.netlify.com/projects/elegant-tanuki-7fae9d/deploys) [Website](http://adamboesky.me)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adam-Boesky/adam_is_me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adam-Boesky/adam_is_me/issues"
+  },
+  "homepage": "https://github.com/Adam-Boesky/adam_is_me#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "vite": "^7.2.2"
+  }
+}
