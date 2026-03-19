@@ -68,10 +68,16 @@ body {
 
 /* Header */
 header {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     position: relative;
     overflow: visible;
     clear: both;
+}
+
+.header-divider {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    margin-top: 14px;
 }
 
 .headshot {
@@ -171,9 +177,14 @@ h2 {
 }
 
 /* About section bio */
-.collapsible:first-of-type .section-content > p {
-    color: #555;
-    line-height: 1.7;
+.about-static {
+    margin-bottom: 48px;
+}
+
+.about-bio {
+    font-size: 13px;
+    line-height: 1.9;
+    color: #1a1a1a;
 }
 
 .cv-link {

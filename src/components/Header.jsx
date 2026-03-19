@@ -5,7 +5,7 @@ const Header = () => {
         <header>
             <img src="/headshot.png" alt="Adam Boesky" className="headshot" />
             <h1>Adam Boesky</h1>
-            <p className="tagline">Founding Engineer · PhD Candidate in Astrophysics</p>
+            <p className="tagline">PhD Candidate, Astronomy & Astrophysics</p>
             <div className="contact-header">
                 <a href="mailto:apboesky@gmail.com">Email</a>
                 <span className="sep">·</span>
@@ -15,6 +15,7 @@ const Header = () => {
                 <span className="sep">·</span>
                 <a href="https://linkedin.com/in/adam-boesky">LinkedIn</a>
             </div>
+            <div className="header-divider" />
         </header>
     );
 };
