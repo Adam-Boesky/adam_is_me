@@ -121,7 +121,7 @@ section {
 
 h2 {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -277,6 +277,52 @@ a:hover {
 .author-highlight {
     color: #a855f7;
     font-weight: 500;
+}
+
+/* Research topics */
+.research-topic {
+    margin-bottom: 28px;
+}
+
+.research-topic:last-child {
+    margin-bottom: 0;
+}
+
+.research-topic-body {
+    overflow: hidden;
+}
+
+.research-topic-image {
+    float: right;
+    max-width: 360px;
+    width: 55%;
+    margin: 0 0 6px 10px;
+    border-radius: 0px;
+}
+
+.topic-title {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.topic-description {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.topic-description a {
+    color: #a855f7;
+    text-decoration: none;
+}
+
+.topic-description a:hover {
+    text-decoration: underline;
 }
 
 /* Skills section */
