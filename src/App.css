@@ -181,10 +181,15 @@ h2 {
     margin-bottom: 48px;
 }
 
+.about-static--compact {
+    margin-bottom: 16px;
+}
+
 .about-bio {
     font-size: 13px;
     line-height: 1.9;
     color: #1a1a1a;
+    margin-bottom: 16px;
 }
 
 .cv-link {
@@ -208,6 +213,10 @@ h2 {
 
 .item:last-child {
     margin-bottom: 0;
+}
+
+.reads-list .item {
+    margin-bottom: 10px;
 }
 
 .item-header {
@@ -317,7 +326,7 @@ a:hover {
 }
 
 .topic-description a {
-    color: #a855f7;
+    color: #4a90a4;
     text-decoration: none;
 }
 
