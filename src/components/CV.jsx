@@ -10,8 +10,17 @@ const CV = () => {
             left: '200px',
             padding: '32px',
             display: 'flex',
-            justifyContent: 'center'
+            flexDirection: 'column',
+            alignItems: 'center'
         }}>
+            <a
+                href="https://github.com/Adam-Boesky/apb_cv/tree/main"
+                target="_blank"
+                rel="noreferrer"
+                style={{ marginBottom: '12px', fontSize: '14px' }}
+            >
+                View source on GitHub
+            </a>
             <iframe
                 src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Adam-Boesky/apb_cv/main-pdf/tex/cv_pubs.pdf&embedded=true"
                 style={{
