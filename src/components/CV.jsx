@@ -8,12 +8,14 @@ const CV = () => {
             right: 0,
             bottom: 0,
             left: '200px',
-            padding: '32px'
+            padding: '32px',
+            display: 'flex',
+            justifyContent: 'center'
         }}>
             <iframe
-                src="/cv_pubs.pdf"
+                src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Adam-Boesky/apb_cv/main-pdf/tex/cv_pubs.pdf&embedded=true"
                 style={{
-                    width: '100%',
+                    width: '816px',
                     height: '100%',
                     border: '1px solid #eee',
                     borderRadius: '4px'
