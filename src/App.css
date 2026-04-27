@@ -52,11 +52,11 @@ body {
 }
 
 .nav-link:hover {
-    color: #a855f7;
+    color: #2d6b7e;
 }
 
 .nav-link.active {
-    color: #9333ea;
+    color: #4a90a4;
 }
 
 /* Main content area */
@@ -85,18 +85,17 @@ header {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 1px solid #eee;
-    box-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
+    border: 2px solid #eee;
+    box-shadow: 0 0 20px rgba(74, 144, 164, 0.5);
     float: right;
     margin-left: 24px;
 }
 
 h1 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 24px;
+    font-family: 'Sora', sans-serif;
+    font-size: 32px;
     font-weight: 600;
     letter-spacing: -0.02em;
-    margin-bottom: 4px;
 }
 
 .tagline {
