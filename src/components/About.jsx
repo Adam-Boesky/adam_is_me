@@ -42,6 +42,11 @@ const About = () => {
                     <span>Supernova classification pipeline leveraging host galaxy properties</span>
                 </div>
                 <div className="item">
+                    <a href="https://github.com/Adam-Boesky/ztforce" className="project-link">ztforce</a>
+                    <span className="sep">—</span>
+                    <span>Forced PSF photometry on ZTF science images (<a href="https://ztforce.readthedocs.io" target="_blank" rel="noopener noreferrer">docs</a>)</span>
+                </div>
+                <div className="item">
                     <a href="https://github.com/TeamCOMPAS/COMPAS" className="project-link">COMPAS</a>
                     <span className="sep">—</span>
                     <span>Rapid binary population synthesis code</span>
